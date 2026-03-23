@@ -9,7 +9,9 @@ import os
 from crewai import LLM
 
 llm = LLM(model="amazon.nova-pro-v1:0")
-serper_api_key = SerperDevTool(api_key="b301ba910de84cab92318edd7c0ce881dfe3f936")
+
+serper_api_key = SerperDevTool(api_key=os.getenv('Serper_API_KEY')) ##Generate a new API KEY, this has expired
+#serper_api_key = SerperDevTool(api_key="b301ba910de84cab92318edd7c0ce881dfe3f936") ##Generate a new API KEY, this has expired
 
 @CrewBase
 class AiTravelPlanner():
