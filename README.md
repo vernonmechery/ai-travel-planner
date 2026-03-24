@@ -1,10 +1,10 @@
 # Ai Travel Planner Crew
 
-Welcome to the AiTravelPlanner Crew project.
+Welcome to the AI Travel Planner Crew project.
 
 ## Installation
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling.
 
 First, if you haven't already, install uv:
 
@@ -37,7 +37,7 @@ $ crewai run
 
 This command initializes the ai_travel_planner Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+This example, unmodified, will run and create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Understanding Your Crew
 
