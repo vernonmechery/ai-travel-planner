@@ -1,6 +1,12 @@
 # Ai Travel Planner Crew
 
-Welcome to the AI Travel Planner Crew project.
+Welcome to the AI Travel Planner Crew project. 
+
+Here we are building an AI app which create a Travel itinerary based on the input from the user. For example, if the user input is Sydney, Australia, the AI app would give the user an itinerary for Sydney, Australia as a response. The app uses LLM's via AWS bedrock and AWS bedrock agentcore under the hood to supply a response.
+
+In section (1. CrewAI Installation and Run Guide), we install the dependencies. We are using CrewAI which is an open source platform to build AI apps. It uses agents and tasks defined in config/agents.yaml and config/tasks.yaml to achieve the objectives.
+
+In section (2. AgentCore Installation and Run Guide), we are using the same AI app but running it as a docker container hosted on AWS agentcode runtime service. Expose the endpoints using AWS lambda and API Gateway. Finally connect app to Streamlit UI for accessing the endpoint.
 
 ## Installation
 
